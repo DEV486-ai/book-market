@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container admin-container">
+    <header>
+        <h2>🛠️ অ্যাডমিন প্যানেল</h2>
+        <a href="index.html" class="admin-btn">ওয়েবসাইটে ফিরে যান</a>
+    </header>
+    <div id="loginSection" class="form-box">
+        <h3>Admin Login</h3>
+        <input type="password" id="adminPass" placeholder="পাসওয়ার্ড দিন (admin123)">
+        <button onclick="login()">Login</button>
+        <p id="loginError" style="color:red;"></p>
+    </div>
+    <div id="dashboard" style="display:none;">
+        <h3>অনুমোদনের অপেক্ষারত বইসমূহ:</h3>
+        <div id="pendingList" class="book-list"></div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
