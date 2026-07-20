@@ -1,0 +1,15 @@
+body { font-family: 'Segoe UI', sans-serif; background-color: #f0f2f5; margin: 0; padding: 0; color: #333; }
+.container { max-width: 800px; margin: 20px auto; padding: 20px; }
+header { display: flex; justify-content: space-between; align-items: center; background: #004d40; color: white; padding: 15px 20px; border-radius: 8px; }
+.admin-btn { background: #fff; color: #004d40; padding: 8px 15px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+.form-box { background: white; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; }
+button { background: #00796b; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 5px; font-size: 16px; }
+button:hover { background: #004d40; }
+.book-list { display: grid; gap: 15px; }
+.book-card { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; }
+.book-info h3 { margin: 0 0 10px 0; color: #00796b; }
+.book-price { font-size: 20px; font-weight: bold; color: #d32f2f; }
+.action-btns button { margin-left: 5px; padding: 5px 10px; font-size: 14px; }
+.approve-btn { background: green; }
+.delete-btn { background: #d32f2f; }
