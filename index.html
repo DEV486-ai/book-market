@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>বই ও খাতা কেনাবেচা</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>📚 বই ও খাতা কেনাবেচা</h1>
+        <a href="admin.html" class="admin-btn">Admin Panel</a>
+    </header>
+    <div class="form-box">
+        <h2>নতুন বই/খাতা বিক্রি করুন</h2>
+        <form id="bookForm">
+            <input type="text" id="title" placeholder="বইয়ের নাম" required>
+            <textarea id="description" placeholder="বিবরণ (কন্ডিশন, ক্লাস ইত্যাদি)" required></textarea>
+            <input type="number" id="price" placeholder="মূল্য (টাকা)" required>
+            <button type="submit">বিক্রির জন্য পোস্ট করুন</button>
+        </form>
+        <p id="msg"></p>
+    </div>
+    <h2>বিক্রির জন্য উপলব্ধ বই</h2>
+    <div id="bookList" class="book-list"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
